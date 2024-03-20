@@ -1,7 +1,8 @@
 public class main {
     public static void main(String[] args) {
-        Archer archer = new Archer(new Miecz());
-        archer.setWeapon(new Pistolet());
-        archer.attack();
+        Person person = new Person(new Archer());
+        person.attack();
+        person.setWeapon(new Gunman());
+        person.attack();
     }
 }

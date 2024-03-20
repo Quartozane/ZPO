@@ -1,5 +1,7 @@
-public class Knight extends Person{
-    public Knight(AttackStrategy attackStrategy) {
-        super(attackStrategy);
+public class Knight implements AttackStrategy{
+
+    @Override
+    public void attack() {
+        System.out.println("Rycerz atakuje!!!");
     }
 }

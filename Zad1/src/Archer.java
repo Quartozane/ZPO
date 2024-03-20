@@ -1,5 +1,6 @@
-public class Archer extends Person{
-    public Archer(AttackStrategy attackStrategy) {
-        super(attackStrategy);
+public class Archer implements AttackStrategy{
+    @Override
+    public void attack() {
+        System.out.println("Łucznik strzela");
     }
 }

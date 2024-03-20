@@ -1,5 +1,6 @@
-public class Gunman extends Person{
-    public Gunman(AttackStrategy attackStrategy) {
-        super(attackStrategy);
+public class Gunman implements  AttackStrategy{
+    @Override
+    public void attack() {
+        System.out.println("Strzelec atakuje!");
     }
 }

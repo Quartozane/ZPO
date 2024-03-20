@@ -1,4 +1,4 @@
-public abstract class Person {
+public class Person {
     AttackStrategy attackStrategy;
 
     public Person(AttackStrategy attackStrategy) {
